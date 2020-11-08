@@ -7,9 +7,9 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="114dp"
+        android:layout_height="179dp"
         android:gravity="center"
-        android:text="Register"
+        android:text="Login"
         android:textColorHint="#000000"
         android:textSize="60sp"
         android:textStyle="bold" />
@@ -43,26 +43,8 @@
             android:textColorHint="#000000"
             android:textSize="36sp" />
 
-        <EditText
-            android:id="@+id/editTextTextPassword2"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:ems="10"
-            android:hint="Login Password"
-            android:inputType="textPassword"
-            android:shadowColor="#000000"
-            android:textColorHint="#000000"
-            android:textSize="36sp" />
-
         <Button
             android:id="@+id/loginbutton"
-            android:layout_width="match_parent"
-            android:layout_height="141dp"
-            android:text="Sign up"
-            android:textSize="36sp" />
-
-        <Button
-            android:id="@+id/gotploginbutton"
             android:layout_width="match_parent"
             android:layout_height="141dp"
             android:text="Login"
